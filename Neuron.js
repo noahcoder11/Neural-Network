@@ -4,10 +4,12 @@ class Neuron {
     this.bias = bias || Math.random()
   }
   forward(input){
-    var n = [];
+    var output = [];
+    
     for(var i = 0;i < input.length;i++){
-      n[i] = input[i] + this.bias;
+      output[i] = input[i] + this.bias;
     }
-    return n;
+    
+    return output;
   }
 }
