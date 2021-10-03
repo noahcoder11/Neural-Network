@@ -7,7 +7,11 @@ class Neuron {
     var output = [];
     
     for(var i = 0;i < input.length;i++){
-      output[i] = input[i] + this.bias;
+      var n = 0
+      for(var j = 0;j < input[i].length;j++){
+        n += input[i][j] + this.bias;
+      }
+      output[i] = n
     }
     
     return output;
