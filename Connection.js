@@ -9,6 +9,6 @@ class Connection {
       output[i] = input[i] * this.weight
     }
     
-    return this.output
+    return output
   }
 }
