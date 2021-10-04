@@ -1,2 +1,2 @@
 # Neural-Network
-Creating a neural network from scratch in javascript
+Creating a neural network from scratch in javascript and python
